@@ -6,4 +6,4 @@ This idea was originally from **[flightmare](https://github.com/uzh-rpg/flightma
 
 ## Environment requirements
 ubuntu 22.04  
-ROS Humble Hawksbill  
+ROS 2 Humble Hawksbill  
