@@ -8,3 +8,4 @@ This idea was originally from **[flightmare](https://github.com/uzh-rpg/flightma
 Ubuntu Jammy 22.04  
 ROS 2 Humble Hawksbill  
 Gazebo Fortress
+Anaconda
