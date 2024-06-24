@@ -9,6 +9,7 @@ Ubuntu Jammy 22.04
 ROS 2 Humble Hawksbill  
 Gazebo Fortress  
 Anaconda
+git
 
 Installation
 ============
@@ -16,6 +17,8 @@ cd ~/Desktop
 mkdir -p flightx_ws/src  
 cd flightx_ws  
 colcon build  
+cd src  
+git clone 
 
 Usage
 =====
