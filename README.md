@@ -18,7 +18,7 @@ mkdir -p flightx_ws/src
 cd flightx_ws  
 colcon build  
 cd src  
-git clone 
+git clone git@github.com:lixiaoxin97/flightx.git  
 
 Usage
 =====
