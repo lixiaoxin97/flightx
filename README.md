@@ -17,6 +17,7 @@ cd ~/Desktop
 mkdir -p flightx_ws/src  
 cd flightx_ws  
 colcon build  
+echo "source ~/Desktop/flightx_ws/install/setup.bash" >> ~/.bashrc
 cd src  
 git clone https://github.com/lixiaoxin97/flightx.git  
 
