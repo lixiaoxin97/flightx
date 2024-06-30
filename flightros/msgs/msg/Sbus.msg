@@ -7,6 +7,14 @@ uint16 KMINCMD = 192
 uint16 KMEANCMD = 992
 uint16 KMAXCMD = 1792
 
+# Channel_mapping
+uint8 KTHROTTLE = 0
+uint8 KROLL = 1
+uint8 KPITCH = 2
+uint8 KYAW = 3
+uint8 KARM = 4
+uint8 KCONTROLMODE = 5
+
 # Header
 std_msgs/Header header
 
