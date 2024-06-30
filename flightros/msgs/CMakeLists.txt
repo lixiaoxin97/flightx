@@ -18,7 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ControlCommand.msg"
-  "msg/SbusRosMessage.msg"
+  "msg/Sbus.msg"
   DEPENDENCIES std_msgs geometry_msgs builtin_interfaces # Add packages that above messages depend on
 )
 
