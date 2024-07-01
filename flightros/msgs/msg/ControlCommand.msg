@@ -4,16 +4,19 @@
 # SRT: single-rotor thrust
 # CBTR: collective thrust and bodyrates
 uint8 SRT=0
-uint8 CBTR=1
+uint8 CTBR=1
 
 # Header
 std_msgs/Header header
 
-# Control mode as defined above
-uint8 control_mode
+# Flag whether the low level controller is connected
+bool connection_state
 
 # Flag whether the control command is active
 bool active
+
+# Control mode as defined above
+uint8 control_mode
 
 # Time at which this command should be executed
 builtin_interfaces/Time expected_execution_time
