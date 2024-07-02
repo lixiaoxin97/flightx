@@ -1,0 +1,8 @@
+quadrotor_mass: 1.000 # [kg]
+collective_thrust_map_a: 1.02748326e-05 # sbus message to betaflight: channels[KTHROTTLE] -> u
+collective_thrust_map_b: 0.0203049107 # collective_thrust * quadrotor_mass -> f
+collective_thrust_map_c: -5.47131429 # f = a * u * u + b * u + c
+max_roll_rate: 720.0 # [deg/s]
+max_pitch_rate: 720.0 # [deg/s]
+max_yaw_rate: 720.0 # [deg/s]
+port_name: /dev/ttyUSB0 # [sbus serial port]
