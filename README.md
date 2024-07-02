@@ -8,7 +8,7 @@ Environment requirements
 Ubuntu Jammy 22.04  
 ROS 2 Humble Hawksbill  
 Gazebo Fortress  
-Anaconda
+Anaconda  
 git
 
 Installation
